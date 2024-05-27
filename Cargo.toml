@@ -32,8 +32,8 @@ defmt = { version = "0.3", optional = true }
 futures = { version = "0.3", default-features = false, features = ["async-await"], optional = true }
 
 [dependencies.smoltcp]
-git = "https://github.com/pintariching/smoltcp",
-branch = "public-neighbor-cache",
+git = "https://github.com/pintariching/smoltcp"
+branch = "public-neighbor-cache"
 default-features = false
 optional = true
 features = [ "proto-ipv4", "medium-ethernet", "socket-tcp, "defmt"]
